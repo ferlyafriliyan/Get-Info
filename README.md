@@ -7,12 +7,10 @@ Welcome
   
 #### ★ Social Accounts ★
 <a href="https://www.facebook.com/Denventa.Xayonara.Team.UnlimitedARMY"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>  
-# ✭ DARK-FACEBOOK 
-### Multi Brute Force Facebook
+# ✭ Get_Info_Account - FACEBOOK 
   
 ### • - Developed By : Denventa And Merch Elz
 ### • - Coded By     : Denventa Afriliyan Ferly Shishigami X [ A-Haganezuka ]
-
   
 ### ⇨  Fitur Get_Info_Account - Facebook
 ```
