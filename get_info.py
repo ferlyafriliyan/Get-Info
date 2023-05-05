@@ -50,7 +50,6 @@ class logo:
 {O2}\    \_\  \  ___/|  |   {P2}|   |   |  \  | (  <_> )
  {O2}\______  /\___  >__|   {P2}|___|___|  /__|  \____/ 
         {O2}\/     \/   Face{P2}book     \/"""
-    print(f'{p}Facebook Get Informations\n')
     print(f'{a}[{m}*{a}]{p} Facebook Name: {k}'+ json['name'])
     print(f'{a}[{m}*{a}]{p} Facebook ID: {k}'+ json['id'])
     print(f'{a}[{m}*{a}]{p} Gender: {k}'+ json['gender'])
