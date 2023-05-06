@@ -4,6 +4,7 @@
 # Coded By     : Denventa Afriliyan Ferly Shishigami X [ A-Haganezuka ]
 # A-Haganezuka = [ Denventa Afriliyan Ferly Shishigami X - Haganezuka ]
 # Recode?, Boleh Asal Cantumkan Nama Author
+# Jangan Ganti Bot Koment Gw
 
 import requests as r, json, os, re
 from requests.exceptions import ConnectionError
