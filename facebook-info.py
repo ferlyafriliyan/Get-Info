@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 #coding=utf-8
-# Developed By : Denventa And Merch Elz
-# Coded By     : Denventa Afriliyan Ferly Shishigami X [ A-Haganezuka ]
-# A-Haganezuka = [ Denventa Afriliyan Ferly Shishigami X - Haganezuka ]
+# Developed By : Dvanmeploph And Merch Elz
+# Coded By     : Dvanmeploph Afriliyan Ferly Shishigami X [ A-Haganezuka ]
+# A-Haganezuka = [ Dvanmeploph Afriliyan Ferly Shishigami X - Haganezuka ]
 # Recode?, Boleh Asal Cantumkan Nama Author
 # Jangan Ganti Bot Koment Gw
 
