@@ -23,7 +23,7 @@ rm -rf $HOME/Get-Info
 pkg update && pkg upgrade -y
 pkg install python git -y
 pkg install python-pip
-git clone https://github.com/Denventa/Get-Info
+git clone https://github.com/Dvanmeploph/Get-Info
 cd Get-Info
 git pull
 pip3 install -r requirements.txt
