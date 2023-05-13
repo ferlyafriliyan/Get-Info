@@ -51,27 +51,27 @@ def stalk(data):
     if 'y' in mar.lower():
         print(f'{p} TOKEN LIST')
         print(f'{a}[{m}1{a}]{p} Token EAAB')
-        print(f'{a}[{m}3{a}]{p} Token EAAD')
-        print(f'{a}[{m}4{a}]{p} Token EAAE')
-        print(f'{a}[{m}5{a}]{p} Token EAAF')
-        print(f'{a}[{m}6{a}]{p} Token EAAG')
-        print(f'{a}[{m}7{a}]{p} Token EAAI')
-        print(f'{a}[{m}8{a}]{p} Token EABB')
+        print(f'{a}[{m}2{a}]{p} Token EAAD')
+        print(f'{a}[{m}3{a}]{p} Token EAAE')
+        print(f'{a}[{m}4{a}]{p} Token EAAF')
+        print(f'{a}[{m}5{a}]{p} Token EAAG')
+        print(f'{a}[{m}6{a}]{p} Token EAAI')
+        print(f'{a}[{m}7{a}]{p} Token EABB')
         seleb = input(f'\n{a}[{m}?{a}]{p} Chose Number:{m} ')
         print()
         if '1' in seleb:
             print(f'{a}[{m}-{a}]{p} Eaab Token:{h} '+ data['token']['eaab'])
-        elif '3' in seleb:
+        elif '2' in seleb:
             print(f'{a}[{m}-{a}]{p} Eaad Token:{h} '+ data['token']['eaad'])
-        elif '4' in seleb:
+        elif '3' in seleb:
             print(f'{a}[{m}-{a}]{p} Eaae Token:{h} '+ data['token']['eaae'])
-        elif '5' in seleb:
+        elif '4' in seleb:
             print(f'{a}[{m}-{a}]{p} Eaaf Token:{h} '+ data['token']['eaaf'])
-        elif '6' in seleb:
+        elif '5' in seleb:
             print(f'{a}[{m}-{a}]{p} Eaag Token:{h} '+ data['token']['eaag'])
-        elif '7' in seleb:
+        elif '6' in seleb:
             print(f'{a}[{m}-{a}]{p} Eaai Token:{h} '+ data['token']['eaai'])
-        elif '8' in seleb:
+        elif '7' in seleb:
             print(f'{a}[{m}-{a}]{p} Eabb Token:{h} '+ data['token']['eabb'])
         else:exit(m +'Pilih Yang Bener Anj1n9')
     else:exit()
