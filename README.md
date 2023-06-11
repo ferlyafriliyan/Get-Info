@@ -6,11 +6,11 @@ Welcome
   <summary><b>More information</b></summary>
   
 #### ★ Social Accounts ★
-<a href="https://www.facebook.com/Denventa.Xayonara.Team.UnlimitedARMY"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>  
+<a href="https://www.facebook.com/freya.xyz"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>  
 # ✭ Get_Info_Account - FACEBOOK 
   
 ### • - Developed By : Denventa And Merch Elz
-### • - Coded By     : Denventa Afriliyan Ferly Shishigami X [ A-Haganezuka ]
+### • - Coded By     : Denventa Ferly Afriliyan [ Livian-xyz ]
   
 ### ⇨  Fitur Get_Info_Account - Facebook
 ```
@@ -23,7 +23,7 @@ rm -rf $HOME/Get-Info
 pkg update && pkg upgrade -y
 pkg install python git -y
 pkg install python-pip
-git clone https://github.com/Itsmeafriliyan/Get-Info
+git clone https://github.com/Livian-xyz/Get-Info
 cd Get-Info
 git pull
 pip3 install -r requirements.txt
