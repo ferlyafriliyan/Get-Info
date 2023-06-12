@@ -10,7 +10,7 @@ Welcome
 # ✭ Get_Info_Account - FACEBOOK 
   
 ### • - Developed By : Denventa And Merch Elz
-### • - Coded By     : Denventa Ferly Afriliyan [ Livian-xyz ]
+### • - Coded By     : Denventa Ferly Afriliyan [ FerlyXyn ]
   
 ### ⇨  Fitur Get_Info_Account - Facebook
 ```
@@ -23,7 +23,7 @@ rm -rf $HOME/Get-Info
 pkg update && pkg upgrade -y
 pkg install python git -y
 pkg install python-pip
-git clone https://github.com/Livian-xyz/Get-Info
+git clone https://github.com/FerlyXyn/Get-Info
 cd Get-Info
 git pull
 pip3 install -r requirements.txt
